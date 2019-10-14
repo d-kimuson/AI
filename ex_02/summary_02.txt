@@ -1,5 +1,29 @@
 # Explanation of modified points (required)
 
+## TODO 1
+Modified: dfs_visit(g, vertex_states, g->vertex_starting_search);
+Description: start dfs searching from g->vertex_starting_search value
+
+## TODO 2
+Modified: vertex_states[current_vertex] = VISITED;
+Description: If called "dfs_visit" => set state that current vertex is visited
+
+## TODO 3
+Modified: if (vertex_states[i] == UNVISITED && g->adjacent_matrix[current_vertex][i] == CONNECTED) {
+Description: if vertex[current => i] is Connected and vertex is not visited yet, then call dfs_visit()
+
+## TODO 4
+Modified: s_queue_enqueue(g->vertex_starting_search);
+Description: When start searching, enqueue start point.
+
+## TODO 5
+Modified: vertex_states[g->vertex_starting_search] = VISITED;
+Description: After enqueue start point, change start point to visited.
+
+## TODO 6
+Modified: if (vertex_states[i] == UNVISITED && g->adjacent_matrix[current_vertex][i] == CONNECTED) {
+Description: if vertex[current => i] is Connected and vertex[i] is not visited yet => enqueue.
+
 
 # Discussion (if needed)
 
