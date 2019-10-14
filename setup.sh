@@ -5,4 +5,4 @@
 # ./setup.sh
 
 # permission setup
-ls | grep ex_ | xargs chmod 705
+ls | grep ex_ | xargs chmod -R 705
