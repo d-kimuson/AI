@@ -31,7 +31,7 @@ void dfs(Graph const* g)
     }
 
     // TODO: 1. Set the arguments in order to start DFS.
-    float cost = dfs_visit(/*----------------------------------------------*/);
+    float cost = dfs_visit(g, vertex_states, g->vertex_starting_search, 0);
 
     printf("\nCost: %.2f\n", cost);
 }
@@ -54,7 +54,7 @@ static float dfs_visit(Graph const* g, VertexState* vertex_states, size_t curren
     vertex_states[current_vertex] = VISITED;
 
     // TODO: 2. Write the terminating condition for the recursive search.
-    if (/*--------------------------------------*/) {
+    if (current_vertex==g->vertex_end_search) {
         return accumulate_cost;
     }
 
@@ -65,7 +65,8 @@ static float dfs_visit(Graph const* g, VertexState* vertex_states, size_t curren
             // TODO: 3. Call dfs_visit recursively.
             // Note: Cost of the child = cost of the edge + accumulate cost.
             //       Also, pay attention to the return value.
-            /*----------------------------------------------------------------------------------------------------*/;
+            accumulate_cost=g->edge_costs[current_vertex][i]+accumulate_cost;
+            return dfs_visit(g, vertex_states, i, accumulate_cost);
         }
 
         // If the goal vertex is visited, finish looping.
@@ -110,7 +111,7 @@ void bfs(Graph const* g)
         printf("%c(%5.2f) ", GET_ID_BY_INDEX(current_vertex), accumulate_costs[current_vertex]);
 
         // TODO: 4. Write the terminating condition for the search.
-        if (/*--------------------------------------*/) {
+        if (current_vertex==g->vertex_end_search) {
             break;
         }
 
@@ -123,7 +124,7 @@ void bfs(Graph const* g)
 
                 // TODO: 5. Calculate the accumulate cost.
                 // Set accumulate cost from the starting vertex to the i-th child vertex.
-                accumulate_costs[i] = /*-------------------------------------------------------------------*/;
+                accumulate_costs[i] = g->edge_costs[current_vertex][i]+accumulate_costs[current_vertex];
             }
         }
     }

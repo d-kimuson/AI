@@ -1,10 +1,27 @@
 # Explanation of modified points (required)
 
+## TODO1
+
+Start dfs with cost 0.
+
+## TODO2
+
+If current_vertex is end vertex(=reach the goal), then stop the func and return final cost.
+
+## TODO3
+
+Update accumulate_cost by adding edgecost current_vertex -> next. and call dfs_visit func recursively.
+
+## TODO4
+
+If current_vertex is end vertex, then stop the func.
+
+## TODO5
+
+Update accumulate_cost by adding edgecost current_vertex -> next.
+
+
 
 # Discussion (if needed)
 
-
 # Comments (if needed)
-
-
-
