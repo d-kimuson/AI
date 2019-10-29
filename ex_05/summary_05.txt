@@ -1,10 +1,12 @@
 # Explanation of modified points (required)
 
+1. Add conflit_set[x] to selected_rules if it isn't used yet.
+2. bubble sort from time_tag
+3. return newest rule(sorted selected_rules[0])
+4. bubble sort from time_tag
+5. return newest rule(sorted selected_rules[0])
 
 # Discussion (if needed)
 
 
 # Comments (if needed)
-
-
-
