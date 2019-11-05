@@ -1,5 +1,8 @@
 # Explanation of modified points (required)
 
+1. 生徒数の数だけforループを回します。
+2. nameとstudentのnameを比較して、長さが等しいときに処理を行う
+3. ターゲットの更新
 
 # Discussion (if needed)
 

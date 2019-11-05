@@ -1,10 +1,24 @@
 # Explanation of modified points (required)
+ホーン節の定義とプロログの文法(?)から
+
+- ¬A1 ∨ ¬A2 ∨ B
+- A1 ∧ A2 => B
+- B:-A1, A2
+
+が等価である.
+
+これにしたがって
+
+p(X,Y) ∨ ¬q(X) ∨ ¬r(Y)
+q(X) ∨ ¬s(X)
+r(Y) ∨ ¬t(Y)
+s(a)
+t(b)
+
+を変形した.
 
 
 # Discussion (if needed)
 
 
 # Comments (if needed)
-
-
-
