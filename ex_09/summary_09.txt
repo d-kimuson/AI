@@ -1,10 +1,10 @@
 # Explanation of modified points (required)
 
+1. Update numerator, denominator
+2. (if new value is higher than max value) Update max value
+3. (if new value is lower than min value) Update min value
 
 # Discussion (if needed)
 
 
 # Comments (if needed)
-
-
-
