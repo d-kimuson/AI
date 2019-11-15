@@ -1,5 +1,9 @@
 # Explanation of modified points (required)
-
+⇓添字がTODO番号に対応⇓
+1. ユークリッド距離を計算
+2. 最小値より小さいとき、最小値のそのラベルを更新
+3. ユークリッド距離計算の実装(d=Σ(p-q)^2)
+4. 正答数の計上
 
 # Discussion (if needed)
 
