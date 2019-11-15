@@ -1,5 +1,7 @@
 # Explanation of modified points (required)
-
+1. ランダムにWeightを決定
+2. ユークリッド距離を計算して、最小値より小さければ最小値とその添字kを保存
+3. backpropagation実装. w{k+1}=w{k}+α(x=w{k})
 
 # Discussion (if needed)
 
