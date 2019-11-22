@@ -1,5 +1,9 @@
 # Explanation of modified points (required)
 
+1. implemete sigmoid func(1 / 1 + exp(-x))
+2. calculate sum of v1[i] * v2[i]
+3. update each mlp.output_errors value
+4. update each weights
 
 # Discussion (if needed)
 
