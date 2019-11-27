@@ -6,7 +6,6 @@
 2. x3 >= 2.45 and ( x4 < 1.75 or (x4 < 1.75 and x3 >= 4.95) or 1.65 <= x4 < 1.75 and x3 < 4.95 ) => virginica
 3. 2.45 <= x3 < 4.95 and x4 > 1.65 => versiclor
 
-
 # Discussion (if needed)
 
 

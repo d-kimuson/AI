@@ -1,0 +1,8 @@
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+
+x =
+
+   1.0e-05 *
+
+    0.0275    0.1268
