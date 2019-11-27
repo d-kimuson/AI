@@ -1,4 +1,4 @@
-load fisheriris % ƒf[ƒ^‚ğƒ[ƒh‚·‚é
-ctree = fitctree(meas,species); %Œˆ’è–Ø‚ğİŒv‚·‚éB
-view(ctree); % Œˆ’è–Ø‚ğƒ‹[ƒ‹‚ÌŒ`‚Å•\¦‚·‚é
-view(ctree,'mode', 'graph'); % Œˆ’è–Ø‚ğƒOƒ‰ƒt‚ÌŒ`‚Å‚Å•\¦‚·‚é
+load fisheriris % ãƒ‡ãƒ¼ã‚¿ã‚’ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
+ctree = fitctree(meas,species); % æ±ºå®šæœ¨ã‚’è¨­è¨ˆã™ã‚‹ã€‚
+view(ctree); % æ±ºå®šæœ¨ã‚’ãƒ«ãƒ¼ãƒ«ã®å½¢ã§è¡¨ç¤ºã™ã‚‹
+view(ctree,'mode', 'graph'); % æ±ºå®šæœ¨ã‚’ã‚°ãƒ©ãƒ•ã®å½¢ã§ã§è¡¨ç¤ºã™ã‚‹
